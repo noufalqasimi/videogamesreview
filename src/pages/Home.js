@@ -1,6 +1,6 @@
 import React from 'react';
 import { Grid, Typography } from '@mui/material';
-import Gamesdetailstable from '/Users/noufalqasimi/Desktop/reviewapp/videogames/src/components/Gamesdetailstable.js';
+import Gamesdetailstable from '../components/Gamesdetailstable.js';
 
 const Home = () => {
   return (

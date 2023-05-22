@@ -1,7 +1,7 @@
 import React from 'react';
 import { Grid, Typography, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper, Button, Rating } from '@mui/material';
 import { Link } from 'react-router-dom';
-import FortnitePoster from '/Users/noufalqasimi/Desktop/reviewapp/videogames/src/Photos/fortnite.jpeg'; 
+import FortnitePoster from '../Photos/fortnite.jpeg'; 
 
 const Fortnite = () => {
   const ratings = [

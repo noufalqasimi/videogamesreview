@@ -1,7 +1,7 @@
 import React from 'react';
 import { Grid, Typography, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper, Button, Rating } from '@mui/material';
 import { Link } from 'react-router-dom';
-import GTAVPoster from '/Users/noufalqasimi/Desktop/reviewapp/videogames/src/Photos/GTAV.jpg'; 
+import GTAVPoster from '../Photos/GTAV.jpg'; 
 const GTAV = () => {
   const ratings = [
     { rating: 4.8, reviewer: 'David Johnson' },

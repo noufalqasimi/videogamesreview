@@ -1,7 +1,7 @@
 import React from 'react';
 import { Grid, Typography, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper, Button, Rating } from '@mui/material';
 import { Link } from 'react-router-dom';
-import AssassinsCreedValhallaPoster from '/Users/noufalqasimi/Desktop/reviewapp/videogames/src/Photos/assasincreed.jpeg';
+import AssassinsCreedValhallaPoster from '../Photos/assasincreed.jpeg';
 
 const AssasinsCreed = () => {
   const ratings = [

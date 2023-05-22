@@ -1,7 +1,7 @@
 import React from 'react';
 import { Grid, Typography, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper, Button, Rating } from '@mui/material';
 import { Link } from 'react-router-dom';
-import TheLastOfUsPoster from '/Users/noufalqasimi/Desktop/reviewapp/videogames/src/Photos/thelastofus.jpeg'; 
+import TheLastOfUsPoster from '../Photos/thelastofus.jpeg'; 
 
 const TheLastOfUs = () => {
   const ratings = [

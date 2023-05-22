@@ -1,7 +1,7 @@
 import React from 'react';
 import { Grid, Typography, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper, Button, Rating } from '@mui/material';
 import { Link } from 'react-router-dom';
-import CallOfDutyBlackOps4Poster from '/Users/noufalqasimi/Desktop/reviewapp/videogames/src/Photos/blackops4.jpg'; 
+import CallOfDutyBlackOps4Poster from '../Photos/blackops4.jpg'; 
 
 const BlackOps4 = () => {
   const ratings = [

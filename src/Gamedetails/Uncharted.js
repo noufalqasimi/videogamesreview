@@ -1,7 +1,7 @@
 import React from 'react';
 import { Grid, Typography, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper, Button, Rating } from '@mui/material';
 import { Link } from 'react-router-dom';
-import UnchartedPoster from '/Users/noufalqasimi/Desktop/reviewapp/videogames/src/Photos/uncharted.jpeg'; 
+import UnchartedPoster from '../Photos/uncharted.jpeg'; 
 
 const Uncharted = () => {
   const ratings = [

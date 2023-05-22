@@ -3,13 +3,13 @@ import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper
 import { Link } from 'react-router-dom';
 
 
-import FIFA23 from '/Users/noufalqasimi/Desktop/reviewapp/videogames/src/Photos/fifa23.jpeg';
-import AssassinsCreedValhalla from '/Users/noufalqasimi/Desktop/reviewapp/videogames/src/Photos/assasincreed.jpeg';
-import CallOfDutyBlackOps4 from '/Users/noufalqasimi/Desktop/reviewapp/videogames/src/Photos/blackops4.jpg';
-import Fortnite from '/Users/noufalqasimi/Desktop/reviewapp/videogames/src/Photos/fortnite.jpeg';
-import GTAV from '/Users/noufalqasimi/Desktop/reviewapp/videogames/src/Photos/GTAV.jpg';
-import TheLastOfUs from '/Users/noufalqasimi/Desktop/reviewapp/videogames/src/Photos/thelastofus.jpeg';
-import Uncharted from '/Users/noufalqasimi/Desktop/reviewapp/videogames/src/Photos/uncharted.jpeg';
+import FIFA23 from '../Photos/fifa23.jpeg';
+import AssassinsCreedValhalla from '../Photos/assasincreed.jpeg';
+import CallOfDutyBlackOps4 from '../Photos/blackops4.jpg';
+import Fortnite from '../Photos/fortnite.jpeg';
+import GTAV from '../Photos/GTAV.jpg';
+import TheLastOfUs from '../Photos/thelastofus.jpeg';
+import Uncharted from '../Photos/uncharted.jpeg';
 
 const Gamesdetailstable = () => {
   return (
