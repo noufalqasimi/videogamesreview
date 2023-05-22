@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Grid, Typography, TextField, Button, Rating } from '@mui/material';
+import axios from 'axios';
 
 const AddReview = () => {
   const [name, setName] = useState('');
@@ -22,6 +23,13 @@ const AddReview = () => {
     event.preventDefault();
 
     // Perform any necessary actions with the review data (e.g., submit to a backend API)
+    axios.post("http://localhost:3000/", { username: name, reviewContent: review, reviewProduct: rating })
+      .then((response) => {
+        // Handle the response if needed
+      })
+      .catch((error) => {
+        // Handle the error if needed
+      });
 
     // Reset the form fields
     setName('');
