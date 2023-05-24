@@ -22,7 +22,15 @@ const TopGames = () => {
   return (
    
     <Grid container justifyContent="center" style={{ paddingTop: '90px' }}>
-      <Grid item xs={8}><Typography>Top Games - Ratings</Typography></Grid>
+      <Grid item xs={8}><Typography
+          variant="h4" // Adjust the variant to control the size and style (e.g., h1, h2, h3, etc.)
+          sx={{
+            fontWeight: 'bold', // Make the text bold
+            fontFamily: 'Lucida Handwriting', // Apply the Lucida Handwriting font
+            color: '#808080' // Set the text color to blue
+          }}
+        >
+Top Games        </Typography></Grid>
     <Grid item xs={8}>
       <TableContainer component={Paper}>
         <Table>

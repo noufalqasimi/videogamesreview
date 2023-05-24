@@ -70,7 +70,7 @@ const BlackOps4 = () => {
             </TableBody>
           </Table>
         </TableContainer>
-        <Link to="/add-review">
+        <Link to="/AddReview">
         <Button variant="contained" color="primary" style={{ marginTop: '20px' }}>
           Add Review
         </Button>
