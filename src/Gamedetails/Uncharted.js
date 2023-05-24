@@ -1,7 +1,6 @@
 import React from 'react';
 import { Grid, Typography, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper, Button, Rating } from '@mui/material';
 import { Link } from 'react-router-dom';
-import UnchartedPoster from '../Photos/uncharted.jpeg'; 
 
 const Uncharted = () => {
   const ratings = [
@@ -9,6 +8,9 @@ const Uncharted = () => {
     { rating: 4.9, reviewer: 'Michael Roberts' },
     { rating: 4.8, reviewer: 'Olivia Wilson' },
   ];
+
+  const UnchartedPoster = 'https://image.api.playstation.com/vulcan/ap/rnd/202111/2000/wZ31G6ToIH9otXTVHbg3I2Wl.png';
+
 
   return (
     <Grid container justifyContent="center" spacing={3} marginTop={7}>

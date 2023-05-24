@@ -1,13 +1,16 @@
 import React from 'react';
 import { Grid, Typography, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper, Button, Rating } from '@mui/material';
 import { Link } from 'react-router-dom';
-import GTAVPoster from '../Photos/GTAV.jpg'; 
+
 const GTAV = () => {
   const ratings = [
     { rating: 4.8, reviewer: 'David Johnson' },
     { rating: 4.7, reviewer: 'Emily Davis' },
     { rating: 4.9, reviewer: 'Sophia Smith' },
   ];
+
+  const GTAVPoster = 'https://i.etsystatic.com/13367669/r/il/013579/3107621028/il_570xN.3107621028_hfi8.jpg';
+
 
   return (
     <Grid container justifyContent="center" spacing={3} marginTop={7}>

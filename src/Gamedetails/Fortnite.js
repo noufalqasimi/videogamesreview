@@ -1,7 +1,6 @@
 import React from 'react';
 import { Grid, Typography, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper, Button, Rating } from '@mui/material';
 import { Link } from 'react-router-dom';
-import FortnitePoster from '../Photos/fortnite.jpeg'; 
 
 const Fortnite = () => {
   const ratings = [
@@ -9,6 +8,9 @@ const Fortnite = () => {
     { rating: 4.3, reviewer: 'Michael Wilson' },
     { rating: 4.9, reviewer: 'Emma Brown' },
   ];
+
+  const FortnitePoster = 'https://i.ebayimg.com/images/g/l~EAAOSw08Fe60Fv/s-l1600.jpg';
+
 
   return (
     <Grid container justifyContent="center" spacing={3} marginTop={7}>

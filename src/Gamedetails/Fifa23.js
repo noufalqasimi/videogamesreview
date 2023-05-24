@@ -1,7 +1,6 @@
 import React from 'react';
 import { Grid, Typography, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper, Button, Rating } from '@mui/material';
 import { Link } from 'react-router-dom';
-import FIFA23Poster from '../Photos/fifa23.jpeg'; 
 
 const Fifa23 = () => {
   const ratings = [
@@ -9,6 +8,9 @@ const Fifa23 = () => {
     { rating: 3.8, reviewer: 'Jane Smith' },
     { rating: 5.0, reviewer: 'Mike Johnson' },
   ];
+
+
+  const FIFA23Poster = 'https://image.api.playstation.com/vulcan/ap/rnd/202301/0312/yM0eeJui8AFByeP5BC5XV5j9.png';
 
   return (
     <Grid container justifyContent="center" spacing={3} marginTop={7}>

@@ -1,7 +1,6 @@
 import React from 'react';
 import { Grid, Typography, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper, Button, Rating } from '@mui/material';
 import { Link } from 'react-router-dom';
-import CallOfDutyBlackOps4Poster from '../Photos/blackops4.jpg'; 
 
 const BlackOps4 = () => {
   const ratings = [
@@ -9,6 +8,9 @@ const BlackOps4 = () => {
     { rating: 4.6, reviewer: 'Jason Davis' },
     { rating: 4.4, reviewer: 'Michelle Smith' },
   ];
+
+  const AssassinsCreedValhallaPoster = '';
+
 
   return (
     <Grid container justifyContent="center" spacing={3} marginTop={7}>

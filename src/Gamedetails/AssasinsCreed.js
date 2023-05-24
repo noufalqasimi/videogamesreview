@@ -1,7 +1,6 @@
 import React from 'react';
 import { Grid, Typography, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper, Button, Rating } from '@mui/material';
 import { Link } from 'react-router-dom';
-import AssassinsCreedValhallaPoster from '../Photos/assasincreed.jpeg';
 
 const AssasinsCreed = () => {
   const ratings = [
@@ -9,6 +8,8 @@ const AssasinsCreed = () => {
     { rating: 4.5, reviewer: 'Emily Johnson' },
     { rating: 4.7, reviewer: 'Alex Davis' },
   ];
+
+  const AssassinsCreedValhallaPoster = 'https://i.pinimg.com/736x/31/96/c1/3196c14ef4255c0965436f0f85497fbb.jpg';
 
   return (
     <Grid container justifyContent="center" spacing={3} marginTop={7}>

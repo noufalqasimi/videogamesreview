@@ -2,24 +2,18 @@ import React from 'react';
 import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper, Grid, Typography} from '@mui/material';
 import { Link } from 'react-router-dom';
 
-import FIFA23 from '../Photos/fifa23.jpeg';
-import AssassinsCreedValhalla from '../Photos/assasincreed.jpeg';
-import CallOfDutyBlackOps4 from '../Photos/blackops4.jpg';
-import Fortnite from '../Photos/fortnite.jpeg';
-import GTAV from '../Photos/GTAV.jpg';
-import TheLastOfUs from '../Photos/thelastofus.jpeg';
-import Uncharted from '../Photos/uncharted.jpeg';
+
 
 const TopGames = () => {
   // Define the games array with their details
   const games = [
-    { name: 'FIFA 23', rating: 4.5, poster: FIFA23 },
-    { name: "Assassin's Creed Valhalla", rating: 4.8, poster: AssassinsCreedValhalla },
-    { name: 'Call of Duty: Black Ops 4', rating: 4.2, poster: CallOfDutyBlackOps4 },
-    { name: 'Grand Theft Auto 5', rating: 4.7, poster: GTAV },
-    { name: 'Fortnite', rating: 4.1, poster: Fortnite },
-    { name: 'The Last of Us', rating: 4.9, poster: TheLastOfUs },
-    { name: 'Uncharted', rating: 4.6, poster: Uncharted },
+    { name: 'FIFA 23', rating: 4.5, poster: 'https://image.api.playstation.com/vulcan/ap/rnd/202301/0312/yM0eeJui8AFByeP5BC5XV5j9.png' },
+    { name: "Assassin's Creed Valhalla", rating: 4.8, poster: 'https://i.pinimg.com/736x/31/96/c1/3196c14ef4255c0965436f0f85497fbb.jpg' },
+    { name: 'Call of Duty: Black Ops 4', rating: 4.2, poster: 'https://m.media-amazon.com/images/M/MV5BMzc2MzEzNjc4OV5BMl5BanBnXkFtZTgwOTQ4MTI1NjM@._V1_.jpg' },
+    { name: 'Grand Theft Auto 5', rating: 4.7, poster: 'https://i.etsystatic.com/13367669/r/il/013579/3107621028/il_570xN.3107621028_hfi8.jpg' },
+    { name: 'Fortnite', rating: 4.1, poster: 'https://i.ebayimg.com/images/g/l~EAAOSw08Fe60Fv/s-l1600.jpg' },
+    { name: 'The Last of Us', rating: 4.9, poster: 'https://cdn.europosters.eu/image/750/posters/the-last-of-us-key-art-i127761.jpg' },
+    { name: 'Uncharted', rating: 4.6, poster: 'https://image.api.playstation.com/vulcan/ap/rnd/202111/2000/wZ31G6ToIH9otXTVHbg3I2Wl.png' },
   ];
 
   // Sort the games based on ratings in descending order

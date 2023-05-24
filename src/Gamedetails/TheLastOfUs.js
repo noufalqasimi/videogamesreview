@@ -1,7 +1,6 @@
 import React from 'react';
 import { Grid, Typography, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper, Button, Rating } from '@mui/material';
 import { Link } from 'react-router-dom';
-import TheLastOfUsPoster from '../Photos/thelastofus.jpeg'; 
 
 const TheLastOfUs = () => {
   const ratings = [
@@ -9,6 +8,9 @@ const TheLastOfUs = () => {
     { rating: 5.0, reviewer: 'Daniel Thompson' },
     { rating: 4.8, reviewer: 'Sophia Davis' },
   ];
+
+  const TheLastOfUsPoster = 'https://cdn.europosters.eu/image/750/posters/the-last-of-us-key-art-i127761.jpg';
+
 
   return (
     <Grid container justifyContent="center" spacing={3} marginTop={7}>
