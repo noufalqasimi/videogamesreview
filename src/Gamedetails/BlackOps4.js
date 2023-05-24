@@ -9,7 +9,7 @@ const BlackOps4 = () => {
     { rating: 4.4, reviewer: 'Michelle Smith' },
   ];
 
-  const AssassinsCreedValhallaPoster = '';
+  const CallOfDutyBlackOps4Poster = 'https://m.media-amazon.com/images/M/MV5BMzc2MzEzNjc4OV5BMl5BanBnXkFtZTgwOTQ4MTI1NjM@._V1_.jpg';
 
 
   return (
