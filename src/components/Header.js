@@ -22,14 +22,14 @@ const Header = () => {
                     <Button component={Link} href="/" color="inherit" className="Navbar-button">
                     Home </Button>
 
-                    
-                   <Link to= "/addgames"><Button  component={Link} color="inherit" className="Navbar-button">
-                    Add Games </Button></Link>
+                   <Button component={Link} href="/addgames" color="inherit" className="Navbar-button">
+                    Add Games </Button>
 
                    
-                    <Link to= "/topgames"><Button component={Link}  color="inherit" className="Navbar-button">
-                    Top Games </Button></Link>
-                    
+                    <Button component={Link} href="/topgames" color="inherit" className="Navbar-button">
+                    Top Games </Button>
+
+        
 
                     </Toolbar>
 
